@@ -18,6 +18,7 @@ on:
     branches: [master]
   pull_request:
   merge_group:
+  workflow_dispatch: {}
 
 # Optimizes CI performance by canceling redundant workflow runs
 # If another push to the same PR or branch happens while this workflow is still running,
