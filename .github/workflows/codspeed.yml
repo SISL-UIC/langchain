@@ -39,7 +39,7 @@ jobs:
           python-version: "3.11"
       - name: "📂 Get Changed Files"
         id: files
-        uses: Ana06/get-changed-files@25f79e676e7ea1868813e21465014798211fad8c # v2.3.0
+        uses: SISL-UIC/get-changed-files@78e6c994cd44cf5faba1b1c93eeb2872dd1b7282 # v2.3.0
         with:
           format: json
       - name: "🔍 Analyze Changed Files"
